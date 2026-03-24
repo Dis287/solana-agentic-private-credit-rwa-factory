@@ -1,0 +1,9 @@
+crewai
+autogen
+langchain
+langgraph
+langchain-community
+llama-index
+n8n
+openai
+python-dotenv
