@@ -41,11 +41,19 @@ We fork/extend/wire only the highest-impact open-source repos:
 2. Clone the repo: `git clone https://github.com/Dis287/solana-agentic-private-credit-rwa-factory.git`
 3. Check the folders and open issues/PRs — we move at Solana speed
 
-**Status**: Building live  
-- ✅ Repo + professional README  
-- ✅ Super-stack documented  
-- ✅ `/agents/` folder created  
-- 🚧 Adding swarm skeletons, SDP tools, and first workflow template this week
+### Try the Live Demo Right Now
+Open `/frontend/index.html` in your browser for a quick natural-language chat demo.
+
+The swarm simulates the full flow (Planner → Compliance → Issuance → Payments → Monitoring) using our SDP tool placeholders.
+
+**Real execution on Solana devnet will activate once we receive SDP sandbox access.**
+
+**Status**: Building live ✅
+- Repo + professional README
+- Super-stack documented
+- All core folders created
+- `swarm.py`, `sdp_tools.py`, workflow template, and frontend demo added
+- Ready for SDP sandbox testing
 
 Crypto natives: spin your own mini-factories and farm yields.  
 Enterprises: originate compliant volume at scale.
