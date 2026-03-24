@@ -1,0 +1,35 @@
+{
+  "name": "Freelance Invoice to RWA Yield Pool",
+  "nodes": [
+    {
+      "name": "User Input",
+      "type": "n8n-nodes-base.manualTrigger",
+      "parameters": {
+        "invoiceDetails": "50K freelance invoices",
+        "amount": 50000,
+        "yieldPct": 12
+      }
+    },
+    {
+      "name": "Planner Agent",
+      "type": "crewai",
+      "parameters": {}
+    },
+    {
+      "name": "SDP Issuance",
+      "type": "langchain-tool",
+      "parameters": {
+        "tool": "sdp_issuance_tool"
+      }
+    },
+    {
+      "name": "SDP Payments",
+      "type": "langchain-tool",
+      "parameters": {
+        "tool": "sdp_payments_tool"
+      }
+    }
+  ],
+  "connections": [],
+  "active": true
+}
