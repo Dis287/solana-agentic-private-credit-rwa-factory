@@ -9,3 +9,4 @@ print("Yield/Monitor Agent: 24/7 monitoring active")
 print("\n✅ Swarm completed successfully (simulated on SDP)")
 print("Real SDP connection ready once you get sandbox access.")
 print("\nNext: Open frontend/index.html in your browser for the chat demo")
+
